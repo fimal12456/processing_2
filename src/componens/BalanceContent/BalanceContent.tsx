@@ -69,11 +69,11 @@ export default function BalanceContent() {
             </span>
                         <p>Сеть кошелка администратора</p>
                         <div className={styles.trc20}>
-                            TRC20
+                            BEP20
                         </div>
                         <p>Адрес кошелка администратора</p>
                         <div className={styles.trc20}>
-                            TFqkTsySSuMf3rJWUWbJQ7fvYD9dvdqKzX
+                            0x93e7C27A93cd1f97a85ac66E649BaFDc59dc7dCF
                          </div>
                     </div>
                     <div className={styles.sum_cech}>
