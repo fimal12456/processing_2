@@ -67,17 +67,17 @@ export default function BalanceContent() {
             <span>
                 Совершите платеж на указанный кошелек администратора. Вставьте в поле для ввода хеш платежа и нажмите сохранить.
             </span>
-                        <p>Сеть кошелка администратора</p>
+                        <p>Сеть кошелька администратора</p>
                         <div className={styles.trc20}>
                             BEP20
                         </div>
-                        <p>Адрес кошелка администратора</p>
+                        <p>Адрес кошелька администратора</p>
                         <div className={styles.trc20}>
                             0x93e7C27A93cd1f97a85ac66E649BaFDc59dc7dCF
                          </div>
                     </div>
                     <div className={styles.sum_cech}>
-                        <label>Адрес кошелка администратора</label>
+                        <label>Адрес кошелька администратора</label>
                         <input className={styles.trc20}/>
                         <label>Введите хеш платежа</label>
                         <input className={styles.trc20}/>
