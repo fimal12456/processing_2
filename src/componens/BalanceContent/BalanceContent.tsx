@@ -77,13 +77,15 @@ export default function BalanceContent() {
                          </div>
                     </div>
                     <div className={styles.sum_cech}>
-                        <label>Адрес кошелька администратора</label>
+                        <label>Сумма платежа</label>
                         <input className={styles.trc20}/>
                         <label>Введите хеш платежа</label>
                         <input className={styles.trc20}/>
                     </div>
                     <div className={styles.payment_buttons} >
-                        <button>Оплатить</button>
+                        <button onClick={()=> {
+                            setState(false)
+                        }} >Оплатить</button>
                         <button className={styles.cancel_button}  onClick={()=> {
                             setState(false)
                         }} >Закрыть</button>
